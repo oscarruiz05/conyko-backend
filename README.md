@@ -17,3 +17,33 @@ Requisitos:
 
 
 Instalación
+
+```bash
+  git clone https://github.com/oscarruiz05/conyko-backend.git
+```
+
+```bash
+  cd onyko-backend
+```
+
+```bash
+  composer isntall
+```
+
+```bash
+  cp .env.example .env
+```
+
+```bash
+  php artisan key:generate
+```
+
+configurar base de datos mysql
+
+```bash
+  php artisan migrate
+```
+
+```bash
+  php artisan serve --port=9000
+```
